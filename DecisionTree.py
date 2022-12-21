@@ -8,8 +8,6 @@ Original file is located at
 """
 
 #Sammer Khalaf 
-#MIS515
-#Assignment 4 part 1
 
 #In this program, you will train the decision tree machine learning model and evaluate its 
 #accuracy. Split your data into training and test data. No specific proportion of training versus 
@@ -56,12 +54,7 @@ if response:
                 y[p] = 1
 
 
-       
-        
-
-
-
-    #for row in x: 
+        #for row in x: 
         #print(row)
     #model   
     x_train,x_test, y_train, y_test = sklearn.model_selection.train_test_split(x,y, random_state = 0, test_size = 0.2)
